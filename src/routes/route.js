@@ -4,11 +4,11 @@ import Home from "../pages/Home";
 
 const routes = [
     {
-        path: "/tea-fun.web.app",
+        path: "/",
         element: <Home/>,
     },
     {
-        path: "/tea-fun.web.app/login",
+        path: "/login",
         element: <Login />,
     },
     ];
