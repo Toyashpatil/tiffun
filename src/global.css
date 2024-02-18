@@ -5,7 +5,7 @@
 .main {
     height: 100vh;
     width: 100vw;
-    /* overflow: hidden; */
+    overflow: hidden;
     background: rgb(7, 47, 47);
     background: linear-gradient(357deg, rgba(7, 47, 47, 1) 0%, rgba(40, 5, 5, 1) 100%);
 }
