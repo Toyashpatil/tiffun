@@ -1,8 +1,28 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import { useNavigate } from 'react-router-dom'
 import Cards from '../components/Cards'
+import { onAuthStateChanged } from 'firebase/auth'
+import {auth} from "../firebase"
 import Text from '../components/Text'
 
+
 const Home = () => {
+  const navigate= useNavigate()
+
+  useEffect(() => {
+    onAuthStateChanged(auth, (user) => {
+      if (!user) {
+        // User is signed in, see docs for a list of available properties
+        // https://firebase.google.com/docs/reference/js/auth.user
+        navigate('/login')
+        // ...
+      } else {
+        // User is signed out
+        // ...
+      }
+    });
+
+  }, [])
   return (
     <div className='flex items-start space-y-4 justify-center bg-slate-500 h-[100vh] w-[100vw] overflow-hidden '>
       <div className='space-y-[50px] w-[100%]' >
@@ -25,7 +45,7 @@ const Home = () => {
 
 
     </div>
-    
+
   )
 }
 

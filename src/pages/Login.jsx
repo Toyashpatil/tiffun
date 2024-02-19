@@ -48,12 +48,37 @@ const Login = () => {
       });
   }
   return (
-    <div className='main   overflow-hidden '>
-      <div className='h-[100vh] w-[100vw] flex items-center justify-center '>
-        <div className=' main_morph bg-yellow-500 h-[20%] rounded-xl w-[50%] flex items-center justify-center '>
-          <div className='bg-white p-2 rounded-3xl flex-wrap flex items-center justify-center '>
-            <button onClick={handleClick} className='text-xl'>Login</button>
-
+    <div className="h-[100vh] w-[100vw] overflow-hidden bg-[#1f2029] ">
+      <div className="container">
+        <div className="row full-height justify-content-center">
+          <div className="col-12 text-center align-self-center py-5">
+            <div className="section pb-5 pt-5 pt-sm-2 text-center">
+              <h6 className="mb-0 pb-3 text-[#ffeba7] "><span>Log In </span><span>Sign Up</span></h6>
+              <input className="checkbox" type="checkbox" id="reg-log" name="reg-log" />
+              <label for="reg-log"></label>
+              <div className="card-3d-wrap mx-auto">
+                <div className="card-3d-wrapper">
+                  <div className="card-front">
+                    <div className="center-wrap">
+                      <div className="section text-center">
+                       
+                        <button onClick={handleClick} className="btn mt-4">Login</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card-back">
+                    <div className="center-wrap">
+                      <div className="section text-center">
+                        
+                        
+                        <button onClick={handleClick} className="btn mt-4">Register</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
