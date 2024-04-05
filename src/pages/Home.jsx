@@ -7,6 +7,7 @@ import { CiMoneyBill } from "react-icons/ci";
 import "./main.css"
 import { CgProfile } from "react-icons/cg";
 import { GrTransaction } from "react-icons/gr";
+import { FaHome } from "react-icons/fa";
 import { BiSolidCategory } from "react-icons/bi";
 
 const Home = () => {
@@ -90,7 +91,7 @@ const Home = () => {
       </div>
       <div className="footer">
         <div className="footer-btns">
-        <div className="home"><BiSolidCategory size={40} color='white'/></div>
+        <div className="home"><FaHome size={40} color='white'/></div>
           <div className="transactions"><GrTransaction size={40} color='gray'/></div>          
         </div>
       </div>
