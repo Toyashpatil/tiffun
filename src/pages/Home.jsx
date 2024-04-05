@@ -37,6 +37,8 @@ const Home = () => {
         </div>
         <div className="profile-img"><CgProfile size={45}/></div>
       </div>
+      <div className="gradient">
+        
       <div className="expense-card">
         <div className="card-header">
          <div> <CiMoneyBill size={34}/> </div>
@@ -68,28 +70,34 @@ const Home = () => {
             </div>
         </div>
       </div>
+      <div className="green"></div>
+        <div className="red"></div>
+      </div>
+      <div className='contain-body'>
       <div className="add-section">
         <div className="add-header">Add tiffin:</div>
         <div className="add-btns">
           <div className="row1">
-            <button className='price'>63</button>
-            <button className='price'>83</button>
+            <button className='price glow-on-hover'>63</button>
+            <button className='price glow-on-hover'>83</button>
           </div>
           <div className="row2">
-            <button className='price'>125</button>
-            <button className='price'>0</button>
+            <button className='price glow-on-hover'>125</button>
+            <button className='price glow-on-hover'>0</button>
           </div>
         </div>
-        <div className="add-bill"><button className='add-bill-btn'>add bill</button></div>
+        <div className="add-bill"><button className='glow-on-hover add-bill-btn'>Add bill</button></div>
       </div>
       <div className="footer">
         <div className="footer-btns">
-        <div className="home"><BiSolidCategory size={45}/></div>
-          <div className="transactions"><GrTransaction size={45}/></div>          
+        <div className="home"><BiSolidCategory size={40} color='white'/></div>
+          <div className="transactions"><GrTransaction size={40} color='gray'/></div>          
         </div>
       </div>
       </div>
       </div>
+      </div>
+     
 
   )
 }
