@@ -6,6 +6,6 @@ import Transactions from "./pages/Transactions";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
-        <App/>
+        <Transactions/>
     </React.StrictMode>
 );

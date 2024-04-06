@@ -98,8 +98,23 @@ const Transactions = () => {
             <div className="input">your transaction</div>
             <div className="input">your transaction</div>
             <div className="input">your transaction</div>
+            <div className="input">your transaction</div>
+            <div className="input">your transaction</div>
+            <div className="input">your transaction</div>
+            <div className="input">your transaction</div>
+            <div className="input">your transaction</div>
+            <div className="input">your transaction</div>
+            <div className="input">your transaction</div>
+            <div className="input">your transaction</div>
+            <div className="input">your transaction</div>
+            <div className="input">your transaction</div>
+            <div className="input">your transaction</div>
+            <div className="input">your transaction</div>
+            <div className="input">your transaction</div>
+            <div className="input">your transaction</div>
+            <div className="input">your transaction</div>
           </div>
-          <div className="footer">
+          <div className="footer-trans">
             <div className="footer-btns">
               <div className={`home button6}`} onClick={() => {
                 setbutton1(false);
