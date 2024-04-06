@@ -217,10 +217,20 @@ border: 1px solid rgba( 255, 255, 255, 0.48 );
     justify-content: space-around;
 
 }
+.icon-active{
+    color: white;
+}
+.active{
+    background-color: #00ffd5;
+   color: gray;
+}
+.home {
+    cursor: pointer;
+}
 
-.home {}
-
-.transactions {}
+.transactions {
+    cursor: pointer;
+}
 
 .btn1-content {
     /* display: flex; */
